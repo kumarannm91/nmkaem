@@ -1,0 +1,24 @@
+.edge-delivery-banner {
+    background-color: aquamarine;
+    border-radius: 40px;
+}
+.edge-delivery-banner > div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.edge-delivery-banner > div > div {
+    order: 2;
+    padding: 20px;
+}
+.edge-delivery-banner > div > div:nth-child(1) h3 {
+    margin-top: 0.25em;
+}
+.edge-delivery-banner > div > div:nth-child(2) p {
+    margin: auto;
+}
+@media (width >= 900px) {
+    .edge-delivery-banner > div {
+        flex-direction: row;
+    }
+}

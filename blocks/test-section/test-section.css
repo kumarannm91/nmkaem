@@ -1,0 +1,16 @@
+.test-section {
+    background-color: rgb(155, 222, 243);
+}
+.test-section > div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+@media (width >= 900px) {
+    .test-section > div {
+        flex-direction: row;
+    }
+    .test-section > div > div {
+        width: 50%;
+    }
+}
