@@ -13,7 +13,7 @@
         "id": "asset-library",
         "title": "AEM Assets",
         "environments": ["edit", "dev"],
-        "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html",
+        "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
         "passConfig": true,
         "passReferred": true,
         "incluePaths": ["**.docx**"],
