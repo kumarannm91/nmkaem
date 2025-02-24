@@ -1,0 +1,9 @@
+.blogs-list > ul {
+    list-style-type: none;
+    margin-top: 1.875rem;
+}
+.blogs-list > ul > li {
+    padding: 1.813rem 0;
+    border-bottom: 1px solid #0d0d0d;
+    display: flex;
+}
